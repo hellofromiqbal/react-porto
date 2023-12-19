@@ -6,13 +6,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 8rem;
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0 8rem;
   background-color: #0f172a;
   max-width: 1440px;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Poppins', sans-serif; */
 }
 
 a {

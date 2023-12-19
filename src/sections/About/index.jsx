@@ -3,7 +3,7 @@ import styles from './about.module.css';
 
 const AboutSection = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section id='about' className={styles.aboutSection}>
       <h2>ABOUT</h2>
       <div className={styles.sectionContent}>
         <p>In 2020, I worked as a <span>customer service</span> in a private banking company in Indonesia. Worked to summarize tons of data using various <span>non-integrated web applications</span> requiring me to perform the same tasks on each. This experience sparked my <span>curiosity</span> about programming and <span>web development</span>.</p>

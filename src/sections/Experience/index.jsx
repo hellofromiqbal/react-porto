@@ -4,7 +4,7 @@ import Card from '../../components/Card';
 
 const ExperienceSection = () => {
   return (
-    <section className={styles.experienceSection}>
+    <section id='experience' className={styles.experienceSection}>
       <h2>EXPERIENCE</h2>
       <div className={styles.experienceList}>
         <Card/>
