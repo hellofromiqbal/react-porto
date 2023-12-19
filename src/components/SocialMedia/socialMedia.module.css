@@ -6,12 +6,11 @@
 
 .socialMediaIcon {
   font-size: 1.7rem;
-  color: #e2e8f0;
-  opacity: .7;
+  color: #8594a9;
 }
 
 .socialMediaIcon:hover {
-  opacity: 1;
+  color: #e2e8f0;
   transition: all .3s;
 }
 

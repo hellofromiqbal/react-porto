@@ -15,15 +15,11 @@
 }
 
 .introProfile p {
-  font-size: .9rem;
   line-height: 1.5rem;
   width: 50%;
+  color: #8594a9;
+  font-weight: 500;
 }
-
-.introProfile p {
-  opacity: .7;
-}
-
 
 /* Media Queries */
 @media screen and (640px < width <= 1024px) {
