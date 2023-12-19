@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+}
+
+/* App Header */
+.AppHeader {
+  flex-basis: 50%;
+  height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.AppHeaderContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* App Main */
+.AppMain {
+  flex-basis: 50%;
+}

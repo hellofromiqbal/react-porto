@@ -1,0 +1,25 @@
+.introProfile {
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.introProfile h1 {
+  font-size: 3rem;
+}
+
+.introProfile h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.introProfile p {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  width: 50%;
+}
+
+.introProfile p {
+  opacity: .7;
+}

@@ -1,0 +1,16 @@
+.socialMediaList {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.socialMediaIcon {
+  font-size: 1.7rem;
+  color: #e2e8f0;
+  opacity: .7;
+}
+
+.socialMediaIcon:hover {
+  opacity: 1;
+  transition: all .3s;
+}
