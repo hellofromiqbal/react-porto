@@ -32,11 +32,12 @@
 
   .AppHeader {
     flex-basis: 100%;
-    padding: 5rem 0;
+    padding: 5rem 0 3rem 0;
   }
 
   .AppMain {
     flex-basis: 100%;
+    padding: 3rem 0;
   }
 }
 
@@ -46,11 +47,10 @@
   }
 
   .AppHeader {
-    flex-basis: 100%;
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
-  
-  .AppHeader {
+
+  .AppMain {
     padding: 3rem 0;
   }
 }
