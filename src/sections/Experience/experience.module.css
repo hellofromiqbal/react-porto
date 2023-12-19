@@ -1,0 +1,33 @@
+.experienceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.experienceSection h2 {
+  display: none;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-size: 1rem;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+}
+
+.experienceList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+/* Media Queries */
+@media screen and (width < 1024px) {
+  .experienceSection h2 {
+    display: block;
+  }
+
+  .experienceList {
+    gap: 3rem;
+  }
+}

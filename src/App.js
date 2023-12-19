@@ -3,6 +3,7 @@ import IntroProfile from './components/IntroProfile';
 import Navbar from './components/Navbar';
 import SocialMedia from './components/SocialMedia';
 import AboutSection from './sections/About';
+import ExperienceSection from './sections/Experience';
 
 function App() {
   return (
@@ -16,10 +17,7 @@ function App() {
       </header>
       <main className={styles.AppMain}>
         <AboutSection/>
-        <AboutSection/>
-        <AboutSection/>
-        <AboutSection/>
-        <AboutSection/>
+        <ExperienceSection/>
       </main>
     </div>
   );
