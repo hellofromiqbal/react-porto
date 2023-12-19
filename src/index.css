@@ -18,3 +18,17 @@ body {
 a {
   text-decoration: none;
 }
+
+
+/* Media Queries */
+@media screen and (640px < width <= 1024px) {
+  body {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (width <= 640px) {
+  body {
+    padding: 0 1.5rem;
+  }
+}

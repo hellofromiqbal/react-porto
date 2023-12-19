@@ -32,3 +32,9 @@
   width: 60px;
   transition: all ease .3s;
 }
+
+@media screen and (width <= 1024px) {
+  .navbar {
+    display: none;
+  }
+}

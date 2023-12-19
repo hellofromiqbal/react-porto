@@ -1,13 +1,13 @@
 .App {
   display: flex;
+  flex-direction: row;
 }
 
 /* App Header */
 .AppHeader {
   flex-basis: 50%;
   height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
 }
 
 .AppHeaderContent {
@@ -20,4 +20,27 @@
 /* App Main */
 .AppMain {
   flex-basis: 50%;
+}
+
+
+/* Media Queries */
+@media screen and (640px < width <= 1024px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .AppHeader {
+    flex-basis: 100%;
+    padding: 5rem 0;
+  }
+
+  .AppMain {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (width <= 640px) {
+  .AppHeader {
+    padding: 3rem 0;
+  }
 }

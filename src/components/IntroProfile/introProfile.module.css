@@ -23,3 +23,33 @@
 .introProfile p {
   opacity: .7;
 }
+
+
+/* Media Queries */
+@media screen and (640px < width <= 1024px) {
+  .introProfile h1 {
+    font-size: 2.5rem;
+  }
+
+  .introProfile h2 {
+    font-size: 1.1rem;
+  }
+
+  .introProfile p {
+    width: 40%;
+  }
+}
+
+@media screen and (width <= 640px) {
+  .introProfile h1 {
+    font-size: 2rem;
+  }
+
+  .introProfile h2 {
+    font-size: 1rem;
+  }
+
+  .introProfile p {
+    width: 100%;
+  }
+}
