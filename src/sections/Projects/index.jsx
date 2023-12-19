@@ -5,7 +5,7 @@ import Card from '../../components/Card';
 const ProjectsSection = () => {
   return (
     <section id='projects' className={styles.projectsSection}>
-      <h2>EXPERIENCE</h2>
+      <h2>PROJECTS</h2>
       <div className={styles.projectsList}>
         <Card/>
         <Card/>
