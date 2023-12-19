@@ -40,6 +40,15 @@
 }
 
 @media screen and (width <= 640px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .AppHeader {
+    flex-basis: 100%;
+    padding: 5rem 0;
+  }
+  
   .AppHeader {
     padding: 3rem 0;
   }
