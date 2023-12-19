@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import SocialMedia from './components/SocialMedia';
 import AboutSection from './sections/About';
 import ExperienceSection from './sections/Experience';
+import ProjectsSection from './sections/Projects';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <main className={styles.AppMain}>
         <AboutSection/>
         <ExperienceSection/>
+        <ProjectsSection/>
       </main>
     </div>
   );
