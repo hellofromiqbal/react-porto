@@ -16,6 +16,10 @@ function App() {
       </header>
       <main className={styles.AppMain}>
         <AboutSection/>
+        <AboutSection/>
+        <AboutSection/>
+        <AboutSection/>
+        <AboutSection/>
       </main>
     </div>
   );
