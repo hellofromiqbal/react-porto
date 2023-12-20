@@ -20,6 +20,9 @@ const portfolioData = {
     ]
   },
   main: {
+    aboutSection: {
+      sectionTitle: 'about'
+    },
     experienceSection: {
       sectionTitle: 'experience',
       experienceList: [
