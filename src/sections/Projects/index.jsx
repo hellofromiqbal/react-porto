@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       <h2>{projectsSection.sectionTitle}</h2>
       <div className={styles.projectsList}>
         {projectsSection.projectsList.map((projectItem) => (
-          <Card key={projectItem.id} data={projectItem}/>
+          <Card key={projectItem.id} data={projectItem} cardType='projects'/>
         ))}
       </div>
     </section>

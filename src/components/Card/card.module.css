@@ -1,41 +1,87 @@
-.card {
+/* Card Experience */
+.cardExperience {
   display: flex;
   padding: 1rem 1rem;
   border-radius: .3rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 
-.card:hover {
+.cardExperience:hover {
   transition: all ease .3s;
   background-color: rgba(255, 255, 255, .1);
 }
 
-.cardLeftSide {
-  flex-basis: 20%;
+.cardExperienceLeftSide {
+  flex-basis: 25%;
   display: flex;
   justify-content: center;
 }
 
-.cardLeftSide h3 {
+.cardExperienceLeftSide h3 {
   font-size: .8rem;
   color: #8594a9;
   opacity: .7;
 }
 
-.cardRightSide {
-  flex-basis: 80%;
+.cardExperienceRightSide {
+  flex-basis: 75%;
   display: flex;
   flex-direction: column;
   gap: .5rem;
 }
 
-.cardRightSide h3 {
+.cardExperienceRightSide h3 {
   font-size: 1rem;
   font-weight: 600;
   color: #e2e8f0;
 }
 
-.cardRightSide p {
+.cardExperienceRightSide p {
+  font-size: .9rem;
+  color: #8594a9;
+}
+
+
+/* Card Projects */
+.cardProjects {
+  display: flex;
+  padding: 1rem 1rem;
+  border-radius: .3rem;
+  gap: 1rem;
+}
+
+.cardProjects:hover {
+  transition: all ease .3s;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.cardProjectsLeftSide {
+  flex-basis: 25%;
+  display: flex;
+  position: relative;
+}
+
+.cardProjectsLeftSide img {
+  position: absolute;
+  width: 100%;
+  border-radius: .3rem;
+  border: 2px solid rgba(133,148,169, .3);
+}
+
+.cardProjectsRightSide {
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.cardProjectsRightSide h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.cardProjectsRightSide p {
   font-size: .9rem;
   color: #8594a9;
 }
@@ -45,7 +91,7 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 1rem;
+  gap: .5rem;
 }
 
 .techList > * {
@@ -60,35 +106,43 @@
 
 /* Media Queries */
 @media screen and (width < 1024px) {
-  .card {
+  .cardExperience, .cardProjects {
     padding: 0;
   }
 
-  .card:hover {
+  .cardExperience:hover, .cardProjects:hover {
     background-color: rgba(255, 255, 255, 0);
   }
 
-  .card:hover {
+  .cardExperience:hover, .cardProjects:hover {
     background-color: none;
   }
 
-  .cardLeftSide {
+  .cardExperienceLeftSide {
     justify-content: start;
   }
 
-  .cardRightSide {
+  .cardExperienceRightSide {
     gap: .7rem;
   }
 
   .techList {
     margin-top: .3rem;
-    gap: .5rem;
   }
 }
 
 @media screen and (width < 640px) {
-  .card {
+  .cardExperience {
     flex-direction: column;
     gap: .5rem;
+  }
+  
+  .cardProjects {
+    flex-direction: column-reverse;
+  }
+
+  .cardProjects img {
+    position: inherit;
+    width: 60%;
   }
 }
