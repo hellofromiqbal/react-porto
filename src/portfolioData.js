@@ -7,7 +7,7 @@ const portfolioData = {
   header: {
     IntroProfile: {
       name: 'Muhammad Iqbal',
-      role: 'MERN Web Developer',
+      role: 'Full-Stack Web Developer',
       excerpt: 'I build exceptional and accessible digital experiences for the web.'
     },
     navbar: [
