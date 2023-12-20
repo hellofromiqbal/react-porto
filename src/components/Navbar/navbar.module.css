@@ -16,6 +16,7 @@
   align-items: center;
   gap: 1rem;
   width: max-content;
+  text-transform: uppercase;
 }
 
 .navLink hr {

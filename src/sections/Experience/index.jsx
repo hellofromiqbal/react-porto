@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './experience.module.css';
 import Card from '../../components/Card';
+import portfolioData from '../../portfolioData';
 
 const ExperienceSection = () => {
+  const experienceSection = portfolioData.main.experienceSection;
   return (
-    <section id='experience' className={styles.experienceSection}>
-      <h2>EXPERIENCE</h2>
+    <section id={experienceSection.sectionTitle} className={styles.experienceSection}>
+      <h2>{experienceSection.sectionTitle}</h2>
       <div className={styles.experienceList}>
-        <Card/>
-        <Card/>
+        {experienceSection.experienceList.map((experienceItem) => (
+          <Card key={experienceItem.id} data={experienceItem}/>
+        ))}
       </div>
     </section>
   )
