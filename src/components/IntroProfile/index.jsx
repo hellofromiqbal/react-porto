@@ -6,7 +6,7 @@ const IntroProfile = () => {
   const introProfile = portfolioData.header.IntroProfile;
   return (
     <div className={styles.introProfile}>
-      <h1>{introProfile.name}</h1>
+      <h1><a href="/">{introProfile.name}</a></h1>
       <h2>{introProfile.role}</h2>
       <p>{introProfile.excerpt}</p>
     </div>

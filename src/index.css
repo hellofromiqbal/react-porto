@@ -26,11 +26,11 @@ a {
 .socialMediaIcon {
   font-size: 1.7rem;
   color: #8594a9;
+  transition: all .3s ease 0s;
 }
 
 .socialMediaIcon:hover {
   color: #e2e8f0;
-  transition: all .3s;
 }
 
 
