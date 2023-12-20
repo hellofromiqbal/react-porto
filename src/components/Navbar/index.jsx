@@ -1,28 +1,20 @@
 import React from 'react';
 import styles from './navbar.module.css';
+import portfolioData from '../../portfolioData';
 
 const Navbar = () => {
+  const navList = portfolioData.header.navbar;
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>
-        <li>
-          <a href="#about" className={styles.navLink}>
-            <hr />
-            <span>ABOUT</span>
-          </a>
-        </li>
-        <li>
-          <a href="#experience" className={styles.navLink}>
-            <hr />
-            <span>EXPERIENCE</span>
-          </a>
-        </li>
-        <li>
-          <a href="#projects" className={styles.navLink}>
-            <hr />
-            <span>PROJECTS</span>
-          </a>
-        </li>
+        {navList.map((navItem) => (
+          <li key={navItem.name}>
+            <a href={navItem.url} className={styles.navLink}>
+              <hr />
+              <span>{navItem.name}</span>
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   )

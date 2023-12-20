@@ -4,16 +4,6 @@
   gap: 1rem;
 }
 
-.socialMediaIcon {
-  font-size: 1.7rem;
-  color: #8594a9;
-}
-
-.socialMediaIcon:hover {
-  color: #e2e8f0;
-  transition: all .3s;
-}
-
 @media screen and (width <= 1024px) {
   .socialMedia {
     margin-top: 1.5rem;

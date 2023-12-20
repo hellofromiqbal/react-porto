@@ -1,15 +1,19 @@
 import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import styles from './socialMedia.module.css';
+import portfolioData from '../../portfolioData';
 
 const SocialMedia = () => {
+  const socialMedia = portfolioData.header.SocialMedia;
   return (
     <div className={styles.socialMedia}>
       <ul className={styles.socialMediaList}>
-        <li><a href="#github"><FaGithub className={styles.socialMediaIcon}/></a></li>
-        <li><a href="#instagram"><FaInstagram className={styles.socialMediaIcon}/></a></li>
-        <li><a href="#twitter"><FaTwitter className={styles.socialMediaIcon}/></a></li>
-        <li><a href="#linkedin"><FaLinkedin className={styles.socialMediaIcon}/></a></li>
+        {socialMedia.map((item) => (
+          <li key={item.name}>
+            <a href={item.url}>
+              {item.icon}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   )

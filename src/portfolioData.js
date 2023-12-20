@@ -1,4 +1,6 @@
-const portfolio = {
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+
+const portfolioData = {
   header: {
     IntroProfile: {
       name: 'Muhammad Iqbal',
@@ -11,10 +13,10 @@ const portfolio = {
       { name: 'PROJECTS', url: "#projects" }
     ],
     SocialMedia: [
-      { name: 'Github', url: "https://www.github.com" },
-      { name: 'Instagram', url: "https://www.instagram.com" },
-      { name: 'Twitter', url: "https://www.twitter.com" },
-      { name: 'LinkedIn', url: "https://www.linkedin.com" },
+      { name: 'Github', icon: <FaGithub className="socialMediaIcon"/>,url: "https://www.github.com" },
+      { name: 'Instagram', icon: <FaInstagram className="socialMediaIcon"/>,url: "https://www.instagram.com" },
+      { name: 'Twitter', icon: <FaTwitter className="socialMediaIcon"/>,url: "https://www.twitter.com" },
+      { name: 'LinkedIn', icon: <FaLinkedin className="socialMediaIcon"/>,url: "https://www.linkedin.com" },
     ]
   },
   main: {
@@ -62,4 +64,4 @@ const portfolio = {
   }
 };
 
-export default portfolio;
+export default portfolioData;

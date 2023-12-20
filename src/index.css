@@ -23,6 +23,16 @@ a {
   text-decoration: none;
 }
 
+.socialMediaIcon {
+  font-size: 1.7rem;
+  color: #8594a9;
+}
+
+.socialMediaIcon:hover {
+  color: #e2e8f0;
+  transition: all .3s;
+}
+
 
 /* Media Queries */
 @media screen and (640px < width <= 1024px) {

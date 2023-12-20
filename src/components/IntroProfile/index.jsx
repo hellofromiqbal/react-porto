@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './introProfile.module.css';
+import portfolioData from '../../portfolioData';
 
 const IntroProfile = () => {
+  const introProfile = portfolioData.header.IntroProfile;
   return (
     <div className={styles.introProfile}>
-      <h1>Muhammad Iqbal</h1>
-      <h2>MERN Web Developer</h2>
-      <p>I build exceptional and accessible digital experiences for the web.</p>
+      <h1>{introProfile.name}</h1>
+      <h2>{introProfile.role}</h2>
+      <p>{introProfile.excerpt}</p>
     </div>
   )
 };
