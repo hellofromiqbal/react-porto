@@ -16,11 +16,16 @@ function App() {
           <SocialMedia/>
         </div>
       </header>
-      <main className={styles.AppMain}>
-        <AboutSection/>
-        <ExperienceSection/>
-        <ProjectsSection/>
-      </main>
+      <div className={styles.leftSideApp}>
+        <main className={styles.AppMain}>
+          <AboutSection/>
+          <ExperienceSection/>
+          <ProjectsSection/>
+        </main>
+        <footer className={styles.AppFooter}>
+          <small>Developed & designed by Muhammad Iqbal 🚀 2023.</small>
+        </footer>
+      </div>
     </div>
   );
 }
