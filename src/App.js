@@ -9,14 +9,14 @@ import ProjectsSection from './sections/Projects';
 function App() {
   return (
     <div className={styles.App}>
-      <header className={styles.AppHeader}>
-        <div className={styles.AppHeaderContent}>
+      <div className={styles.leftSide}>
+        <header className={styles.AppHeader}>
           <IntroProfile/>
           <Navbar/>
           <SocialMedia/>
-        </div>
-      </header>
-      <div className={styles.leftSideApp}>
+        </header>
+      </div>
+      <div className={styles.rightSide}>
         <main className={styles.AppMain}>
           <AboutSection/>
           <ExperienceSection/>
