@@ -34,17 +34,25 @@ const portfolioData = {
           period: '2022-2023',
           role: 'Front-End Web Developer',
           company: 'Gikslab',
-          desc: 'Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
           technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
           url: "https://www.gikslab.com"
         },
         {
           id: 2,
+          period: '2021-2022',
+          role: 'Front-End Web Developer',
+          company: 'Cheedles Indonesia',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
+          url: "https://www.google.com"
+        },
+        {
+          id: 3,
           period: '2020-2021',
           role: 'Customer Service',
           company: 'CIMB Niaga',
-          desc: 'Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.',
-          url: "https://www.cimbniaga.co.id"
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
+          url: "https://www.google.com"
         }
       ]
     },
@@ -53,25 +61,25 @@ const portfolioData = {
       projectsList: [
         {
           id: 1,
-          title: 'Spotify Profile',
-          desc: 'Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
+          title: 'Willow Project',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
           technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
           url: "#",
           img: project1Img,
         },
         {
           id: 2,
-          title: 'DocHealth',
-          desc: 'Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
-          technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
+          title: 'HealthHelp',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
+          technologies: [ 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
           url: "#",
           img: project2Img,
         },
         {
           id: 3,
           title: 'Light House',
-          desc: 'Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
-          technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
+          technologies: [ 'React.js', 'Tailwind', 'Firebase'],
           url: "#",
           img: project3Img,
         },
