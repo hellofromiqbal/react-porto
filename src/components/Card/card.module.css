@@ -1,6 +1,6 @@
 .card {
   display: flex;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: .3rem;
   gap: 2rem;
 }
