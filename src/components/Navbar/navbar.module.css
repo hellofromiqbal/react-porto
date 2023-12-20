@@ -8,10 +8,11 @@
 .navList li {
   font-size: .8rem;
   font-weight: 600;
+  color: rgba(133,148,169, .7);
 }
 
 .navLink {
-  color: rgba(133,148,169, .7);
+  color: inherit;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -34,7 +35,15 @@
 .navLink:hover hr {
   color: #e2e8f0;
   width: 60px;
-  opacity: 1;
+}
+
+.active {
+  color: #e2e8f0;
+}
+
+.active hr {
+  color: #e2e8f0;
+  width: 60px;
 }
 
 @media screen and (width <= 1024px) {
