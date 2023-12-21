@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './navbar.module.css';
 import portfolioData from '../../portfolioData';
 
 const Navbar = () => {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState('');
 
   const handleClick = (sectionName) => {
     setActiveSection(sectionName);
   };
 
+  useEffect(() => {
+    setActiveSection('about');
+  }, []);
+
   window.addEventListener('scroll', () => {
     let scrollTop = window.scrollY;
-    // const aboutSection = document.getElementById('about');
     const experienceSection = document.getElementById('experience');
     const projectsSection = document.getElementById('projects');
 
