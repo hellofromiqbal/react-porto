@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './navbar.module.css';
 import portfolioData from '../../portfolioData';
+import onScroll from '../../hooks/onScroll';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('');
@@ -13,20 +14,8 @@ const Navbar = () => {
     setActiveSection('about');
   }, []);
 
-  window.addEventListener('scroll', () => {
-    let scrollTop = window.scrollY;
-    const experienceSection = document.getElementById('experience');
-    const projectsSection = document.getElementById('projects');
+  onScroll(setActiveSection);
 
-    if(scrollTop < experienceSection.offsetTop - 80) {
-      setActiveSection('about');
-    } else if(scrollTop >= experienceSection.offsetTop - 80 && scrollTop < projectsSection.offsetTop - 100) {
-      setActiveSection('experience');
-    } else {
-      setActiveSection('projects');
-    };
-  });
-  
   const navList = portfolioData.header.navbar;
   return (
     <nav className={styles.navbar}>
