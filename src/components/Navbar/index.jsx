@@ -11,16 +11,16 @@ const Navbar = () => {
 
   window.addEventListener('scroll', () => {
     let scrollTop = window.scrollY;
-    const aboutSection = document.getElementById('about');
+    // const aboutSection = document.getElementById('about');
     const experienceSection = document.getElementById('experience');
     const projectsSection = document.getElementById('projects');
-    
+
     if(scrollTop < experienceSection.offsetTop - 80) {
-      setActiveSection((prev) => prev = 'about');
-    } else if(scrollTop >= aboutSection.offsetTop - 80 && scrollTop < projectsSection.offsetTop - 80) {
-      setActiveSection((prev) => prev = 'experience');
-    } else if (scrollTop >= projectsSection.offsetTop - 80) {
-      setActiveSection((prev) => prev = 'projects');
+      setActiveSection('about');
+    } else if(scrollTop >= experienceSection.offsetTop - 80 && scrollTop < projectsSection.offsetTop - 100) {
+      setActiveSection('experience');
+    } else {
+      setActiveSection('projects');
     };
   });
   
