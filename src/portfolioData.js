@@ -1,5 +1,5 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import project1Img from './assets/images/projects/projects-project1.jpg'
+import project1Img from './assets/images/projects/post-it.jpg'
 import project2Img from './assets/images/projects/projects-project2.jpg'
 import project3Img from './assets/images/projects/projects-project3.jpg'
 
@@ -61,10 +61,10 @@ const portfolioData = {
       projectsList: [
         {
           id: 1,
-          title: 'Willow Project',
+          title: 'Post-it',
           desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
           technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
-          url: "#",
+          url: "https://post-it-socialmedia.vercel.app/",
           img: project1Img,
         },
         {
