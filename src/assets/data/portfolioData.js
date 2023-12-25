@@ -1,7 +1,7 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import project1Img from '../images/projects/postit.jpg';
 import project2Img from '../images/projects/movosite.jpg';
-import project3Img from '../images/projects/projects-project3.jpg';
+import project3Img from '../images/projects/wesave.jpg';
 
 const portfolioData = {
   header: {
@@ -78,10 +78,10 @@ const portfolioData = {
         },
         {
           id: 3,
-          title: 'Project3',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          technologies: [ 'React.js', 'Tailwind', 'Firebase'],
-          url: "#",
+          title: 'WeSave',
+          desc: 'An example landing page website for a cybersecurity company.',
+          technologies: [ 'React.js', 'Tailwind'],
+          url: "https://wesave.vercel.app/",
           img: project3Img,
         },
       ]
