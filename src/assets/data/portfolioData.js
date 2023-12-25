@@ -34,8 +34,8 @@ const portfolioData = {
           period: '2022-2023',
           role: 'Front-End Web Developer',
           company: 'Gikslab',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
+          desc: `Contribute to the development and maintenance of corporate web application features such as corporate talent work time tracking feature and task manager feature.`,
+          technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'JWT', 'React-Redux'],
           url: "https://www.gikslab.com"
         },
         {
@@ -43,16 +43,17 @@ const portfolioData = {
           period: '2021-2022',
           role: 'Front-End Web Developer',
           company: 'Cheedles Indonesia',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          url: "https://www.google.com"
+          desc: `Developed a company landing page integrated with Google Analytics 4, Meta pixel, Twitter pixel, and TikTok pixel to track, analyze, and predict the behavior of potential customers.`,
+          technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Google Analytics 4', 'Google Tag Manager'],
+          url: "https://www.order.cheedles.co.id"
         },
         {
           id: 3,
           period: '2020-2021',
           role: 'Customer Service',
           company: 'CIMB Niaga',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          url: "https://www.google.com"
+          desc: 'Addressed and resolved customer inquiries, concerns, and issues through various communication channels. Collaborated with internal teams to ensure timely issue resolution, contribute to maintaining high-quality service standards, and continually update their knowledge of products and policies.',
+          url: "https://www.cimbniaga.com"
         }
       ]
     },
@@ -62,8 +63,8 @@ const portfolioData = {
         {
           id: 1,
           title: 'Post-it',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'Framer Motion'],
+          desc: 'A social media application with several features such as creating a post, liking a post, making account profile changes and more.',
+          technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt', 'Mailtrap'],
           url: "https://post-it-socialmedia.vercel.app/",
           img: project1Img,
         },
