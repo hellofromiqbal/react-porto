@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './introProfile.module.css';
-import portfolioData from '../../portfolioData';
+import portfolioData from '../../assets/data/portfolioData';
+
 
 const IntroProfile = () => {
   const introProfile = portfolioData.header.IntroProfile;

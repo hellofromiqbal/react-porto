@@ -1,7 +1,7 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import project1Img from './assets/images/projects/post-it.jpg'
-import project2Img from './assets/images/projects/projects-project2.jpg'
-import project3Img from './assets/images/projects/projects-project3.jpg'
+import project1Img from '../images/projects/post-it.jpg';
+import project2Img from '../images/projects/projects-project2.jpg';
+import project3Img from '../images/projects/projects-project3.jpg';
 
 const portfolioData = {
   header: {

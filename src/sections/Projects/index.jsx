@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './projects.module.css';
 import Card from '../../components/Card';
-import portfolioData from '../../portfolioData';
+import portfolioData from '../../assets/data/portfolioData';
 
 const ProjectsSection = () => {
   const projectsSection = portfolioData.main.projectsSection;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './socialMedia.module.css';
-import portfolioData from '../../portfolioData';
+import portfolioData from '../../assets/data/portfolioData';
 
 const SocialMedia = () => {
   const socialMedia = portfolioData.header.SocialMedia;

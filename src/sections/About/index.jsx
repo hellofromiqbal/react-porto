@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
-import portfolioData from '../../portfolioData';
+import portfolioData from '../../assets/data/portfolioData';
 
 const AboutSection = () => {
   const aboutSection = portfolioData.main.aboutSection;

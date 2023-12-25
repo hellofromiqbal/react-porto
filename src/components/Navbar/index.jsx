@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './navbar.module.css';
-import portfolioData from '../../portfolioData';
 import onScroll from '../../hooks/onScroll';
+import portfolioData from '../../assets/data/portfolioData';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('');

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './experience.module.css';
 import Card from '../../components/Card';
-import portfolioData from '../../portfolioData';
+import portfolioData from '../../assets/data/portfolioData';
 
 const ExperienceSection = () => {
   const experienceSection = portfolioData.main.experienceSection;
