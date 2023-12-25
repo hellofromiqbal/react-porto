@@ -33,7 +33,7 @@ const portfolioData = {
           id: 1,
           period: '2022-2023',
           role: 'Front-End Web Developer',
-          company: 'Gikslab',
+          company: 'PT. Gikslab Talenta Internasional',
           desc: `Contribute to the development and maintenance of corporate web application features such as corporate talent work time tracking feature and task manager feature.`,
           technologies: ['MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'JWT', 'React-Redux'],
           url: "https://www.gikslab.com"
