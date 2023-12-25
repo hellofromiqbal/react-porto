@@ -62,7 +62,7 @@ const portfolioData = {
       projectsList: [
         {
           id: 1,
-          title: 'Post-it',
+          title: 'PostIt',
           desc: 'A social media application with several features such as creating a post, liking a post, making account profile changes and more.',
           technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt', 'Mailtrap'],
           url: "https://post-it-socialmedia.vercel.app/",
@@ -70,7 +70,7 @@ const portfolioData = {
         },
         {
           id: 2,
-          title: 'HealthHelp',
+          title: 'Project2',
           desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
           technologies: [ 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
           url: "#",
@@ -78,7 +78,7 @@ const portfolioData = {
         },
         {
           id: 3,
-          title: 'Light House',
+          title: 'Project3',
           desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
           technologies: [ 'React.js', 'Tailwind', 'Firebase'],
           url: "#",
