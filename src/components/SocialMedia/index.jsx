@@ -9,7 +9,7 @@ const SocialMedia = () => {
       <ul className={styles.socialMediaList}>
         {socialMedia.map((item) => (
           <li key={item.name}>
-            <a href={item.url}>
+            <a href={item.url} rel='noreferrer' target='_blank'>
               {item.icon}
             </a>
           </li>

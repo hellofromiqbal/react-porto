@@ -19,7 +19,7 @@ const portfolioData = {
       { name: 'Github', icon: <FaGithub className="socialMediaIcon"/>,url: "https://www.github.com" },
       { name: 'Instagram', icon: <FaInstagram className="socialMediaIcon"/>,url: "https://www.instagram.com" },
       { name: 'Twitter', icon: <FaTwitter className="socialMediaIcon"/>,url: "https://www.twitter.com" },
-      { name: 'LinkedIn', icon: <FaLinkedin className="socialMediaIcon"/>,url: "https://www.linkedin.com" },
+      { name: 'LinkedIn', icon: <FaLinkedin className="socialMediaIcon"/>,url: "https://www.linkedin.com/in/hellofromiqbal" },
     ]
   },
   main: {
