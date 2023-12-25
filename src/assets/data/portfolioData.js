@@ -1,6 +1,6 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import project1Img from '../images/projects/post-it.jpg';
-import project2Img from '../images/projects/projects-project2.jpg';
+import project1Img from '../images/projects/postit.jpg';
+import project2Img from '../images/projects/movosite.jpg';
 import project3Img from '../images/projects/projects-project3.jpg';
 
 const portfolioData = {
@@ -70,10 +70,10 @@ const portfolioData = {
         },
         {
           id: 2,
-          title: 'Project2',
-          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id eius non iusto sequi molestias libero aspernatur deleniti aut. Nam aliquid distinctio doloremque labore? Reprehenderit nobis vel sunt. Ad, illum.',
-          technologies: [ 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-          url: "#",
+          title: 'Movosite',
+          desc: 'A website that provides information about millions of films and television programs as well as their cast and crew. The name is an acronym for Movie Site.',
+          technologies: [ 'React.js', 'Tailwind'],
+          url: "https://movosite.vercel.app/",
           img: project2Img,
         },
         {
