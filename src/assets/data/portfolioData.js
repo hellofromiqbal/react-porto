@@ -16,9 +16,9 @@ const portfolioData = {
       { name: 'projects', url: "#projects" }
     ],
     SocialMedia: [
-      { name: 'Github', icon: <FaGithub className="socialMediaIcon"/>,url: "https://www.github.com" },
-      { name: 'Instagram', icon: <FaInstagram className="socialMediaIcon"/>,url: "https://www.instagram.com" },
-      { name: 'Twitter', icon: <FaTwitter className="socialMediaIcon"/>,url: "https://www.twitter.com" },
+      { name: 'Github', icon: <FaGithub className="socialMediaIcon"/>,url: "https://www.github.com/hellofromiqbal" },
+      { name: 'Instagram', icon: <FaInstagram className="socialMediaIcon"/>,url: "https://www.instagram.com/hellofromiqbal" },
+      { name: 'Twitter', icon: <FaTwitter className="socialMediaIcon"/>,url: "https://www.twitter.com/hellofromiqbal" },
       { name: 'LinkedIn', icon: <FaLinkedin className="socialMediaIcon"/>,url: "https://www.linkedin.com/in/hellofromiqbal" },
     ]
   },
