@@ -1,5 +1,5 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import project1Img from '../images/projects/postit.jpg';
+import project1Img from '../images/projects/nexus.png';
 import project2Img from '../images/projects/movosite.jpg';
 import project3Img from '../images/projects/wesave.jpg';
 
@@ -62,10 +62,10 @@ const portfolioData = {
       projectsList: [
         {
           id: 1,
-          title: 'PostIt',
+          title: 'Nexus',
           desc: 'A social media application with several features such as creating a post, liking a post, making account profile changes and more.',
-          technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt', 'Mailtrap'],
-          url: "https://post-it-socialmedia.vercel.app/",
+          technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt'],
+          url: "https://nexus-socialmedia.vercel.app/",
           img: project1Img,
         },
         {
