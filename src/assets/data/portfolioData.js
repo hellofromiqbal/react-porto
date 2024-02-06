@@ -1,7 +1,8 @@
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import project1Img from '../images/projects/nexus.png';
-import project2Img from '../images/projects/movosite.jpg';
-import project3Img from '../images/projects/wesave.jpg';
+import project2Img from '../images/projects/sphere.png';
+import project3Img from '../images/projects/movosite.jpg';
+import project4Img from '../images/projects/wesave.jpg';
 
 const portfolioData = {
   header: {
@@ -64,25 +65,33 @@ const portfolioData = {
           id: 1,
           title: 'Nexus',
           desc: 'A social media application with several features such as creating a post, liking a post, making account profile changes and more.',
-          technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt'],
+          technologies: [ 'Next.js', 'MongoDb', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt', '++'],
           url: "https://nexus-socialmedia.vercel.app/",
           img: project1Img,
         },
         {
           id: 2,
-          title: 'Movosite',
-          desc: 'A website that provides information about millions of films and television programs as well as their cast and crew. The name is an acronym for Movie Site.',
-          technologies: [ 'React.js', 'Tailwind'],
-          url: "https://movosite.vercel.app/",
+          title: 'Sphere',
+          desc: 'A site that allows users to create and share articles, tips, and even their experiences publicly. This site is similar to medium.com.',
+          technologies: [ 'MongoDb', 'Express.js', 'React.js', 'Node.js', 'Tailwind', 'React-Redux', 'JWT', 'Bcrypt', '++' ],
+          url: "https://sphere-client.vercel.app/",
           img: project2Img,
         },
         {
           id: 3,
+          title: 'Movosite',
+          desc: 'A website that provides information about millions of films and television programs as well as their cast and crew. The name is an acronym for Movie Site.',
+          technologies: [ 'React.js', 'Tailwind'],
+          url: "https://movosite.vercel.app/",
+          img: project3Img,
+        },
+        {
+          id: 4,
           title: 'WeSave',
           desc: 'An example landing page website for a cybersecurity company.',
           technologies: [ 'React.js', 'Tailwind'],
           url: "https://wesave.vercel.app/",
-          img: project3Img,
+          img: project4Img,
         },
       ]
     },
