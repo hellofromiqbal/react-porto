@@ -32,7 +32,7 @@ const portfolioData = {
       experienceList: [
         {
           id: 1,
-          period: '2022-2023',
+          period: '2023',
           role: 'Front-End Web Developer',
           company: 'PT. Gikslab Talenta Internasional',
           desc: `Contribute to the development and maintenance of corporate web application features such as corporate talent work time tracking feature and task manager feature.`,
